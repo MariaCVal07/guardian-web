@@ -1,209 +1,131 @@
-# Overview
+# Product Specification
 
-This document defines the functional specification of the landing page.
+## Purpose
 
-The landing page is not a portfolio.
+This document defines the functional behavior of the Guardian landing page.
 
-It is a conversion-focused product designed to generate trust and qualified business conversations.
+It is the primary product specification used during implementation.
 
-Every section must help visitors answer one question:
+Business strategy belongs to the strategy documentation.
 
-"Can this person help my team build better software?"
+Visual decisions belong to the design documentation.
+
+Implementation details belong to the development documentation.
+
+---
+
+# Product Overview
+
+Guardian is a consulting platform focused on AI-Assisted Risk-Based Quality Engineering (RBQE).
+
+The landing page exists to communicate the value of the methodology, establish engineering credibility, and generate qualified business conversations.
+
+It is not a portfolio.
+
+It is not a software product.
+
+It is a conversion-focused business platform.
 
 ---
 
 # Primary Goal
 
-Generate qualified conversations with:
+Generate qualified conversations with potential clients through a clear, professional and technically credible landing page.
 
-- Recruiters
-- CTOs
-- Engineering Managers
-- Product Teams
+Primary KPI:
 
-The landing should encourage visitors to contact us rather than simply consume information.
+- Book a Technical Review
 
 ---
 
 # Secondary Goals
 
-Demonstrate technical credibility.
-
-Communicate the business value of AI-Assisted Quality Engineering.
-
-Build trust through clarity instead of marketing language.
-
----
-
-# Target Audience
-
-Primary
-
-- Engineering Managers
-- CTOs
-- QA Leads
-
-Secondary
-
-- Recruiters
-- Product Owners
+- Demonstrate engineering expertise.
+- Communicate the value of AI-Assisted Quality Engineering.
+- Build trust through clarity instead of marketing.
+- Encourage visitors to start a conversation.
 
 ---
 
-# User Journey
+# Product Scope
 
-The landing should answer these questions in order.
+The MVP consists of a single bilingual landing page.
 
-1.
+Supported languages:
 
-What do you do?
+- English
+- Spanish
 
-↓
-
-2.
-
-Why is it different?
-
-↓
-
-3.
-
-Can I trust you?
-
-↓
-
-4.
-
-How do you work?
-
-↓
-
-5.
-
-How can I contact you?
-
----
-
-# Information Architecture
-
-The MVP landing contains four conversion-focused sections.
-
-1. Hero
-2. How It Works
-3. Why This Approach
-4. Contact
-
-Every section exists to answer one specific customer question and move the visitor one step closer to starting a conversation.
-
-## Hero
-
-Purpose
-
-Explain the service in less than ten seconds.
-
-The visitor should immediately understand:
-
-- What we do.
-- Who we help.
-- Why it matters.
-
-Primary CTA
-
-Book a conversation.
-
----
-
-## Services
-
-Purpose
-
-Explain how AI-Assisted Quality Engineering helps customers.
-
-Describe the service through customer outcomes rather than technical features.
-
-Every service should answer:
-
-"What problem does this solve?"
-
----
-
-## Why This Approach
-
-Purpose
-
-Build credibility.
-
-Explain why combining Artificial Intelligence with Risk-Based Quality Engineering produces better software decisions.
-
-This section differentiates the business from traditional QA and generic AI tools.
-
----
-
-## Contact
-
-Purpose
-
-Remove friction.
-
-Provide a clear and simple way for visitors to start a conversation.
-
-The contact process should require minimal effort.
+Future expansion will introduce additional pages, but they are outside the current scope.
 
 ---
 
 # Navigation
 
-The navigation bar should remain simple.
+The navigation must remain simple and predictable.
 
-Items:
+Required elements:
 
-Home
+- Logo
+- Primary navigation
+- Language switcher
+- Primary CTA
 
-Services
-
-About
-
-Contact
-
-Language Switcher
+Navigation should never distract from the main conversion goal.
 
 ---
 
 # Calls To Action
 
-Every CTA should invite a conversation.
+Every call to action should encourage a conversation rather than a purchase.
 
-Examples:
+Preferred examples:
 
-Book a Call
+- Book a Technical Review
+- Book a Call
+- Start the Conversation
+- Let's Talk
 
-Let's Talk
+Avoid generic actions such as:
 
-Start the Conversation
+- Submit
+- Read More
+- Learn More
 
-Avoid generic buttons such as:
+---
 
-Submit
+# Functional Requirements
 
-Learn More
+The landing page must:
 
-Read More
+- Support English and Spanish.
+- Be fully responsive.
+- Load quickly.
+- Be accessible.
+- Present a clear information hierarchy.
+- Guide visitors naturally toward the primary CTA.
+
+All user-facing content must come from the translation files.
 
 ---
 
 # Product Principles
 
-The landing should feel like a software product.
+The product should communicate:
 
-Not like a freelancer portfolio.
+- Engineering expertise
+- Trust
+- Precision
+- Professionalism
+- Clarity
 
-Every section must communicate one clear idea.
+The interface should feel like a modern engineering platform.
 
-Avoid unnecessary animations.
+Never like:
 
-Avoid information overload.
-
-Trust is built through clarity.
+- A freelancer portfolio
+- A marketing landing page
+- A personal blog
 
 ---
 
@@ -211,34 +133,42 @@ Trust is built through clarity.
 
 The MVP does not include:
 
-Blog
+- Blog
+- Pricing
+- Testimonials
+- Case studies
+- Documentation portal
+- Authentication
+- Dashboard
+- Multiple pages
 
-Testimonials
-
-Case Studies
-
-Pricing
-
-Resources
-
-Documentation
-
-Multiple pages
-
-The focus is generating conversations.
+These features belong to future iterations.
 
 ---
 
 # Success Criteria
 
-A visitor should understand within thirty seconds:
+A visitor should understand within the first 30 seconds:
 
-Who we help.
+- Who Guardian helps.
+- What problem Guardian solves.
+- Why the methodology is different.
+- What action should be taken next.
 
-What problem we solve.
+If these questions are not answered clearly, the product has failed.
 
-Why we are different.
+---
 
-How to contact us.
+# Source of Truth
 
-If these questions are not answered, the landing has failed.
+This document defines the functional behavior of the product.
+
+Additional project documentation:
+
+- PROJECT.md → Project vision and business objectives.
+- docs/strategy/ → Brand strategy and positioning.
+- docs/product/information-architecture.md → Information hierarchy.
+- docs/product/section-specifications.md → Section definitions.
+- docs/product/user-flow.md → Visitor journey.
+- docs/design/ → Visual language and design system.
+- docs/development/ → Technical implementation guidelines.

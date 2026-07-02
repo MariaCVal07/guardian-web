@@ -1,41 +1,38 @@
-# Landing Blueprint
+# Information Architecture
 
 ## Project
 
-RBQE.ai
+Guardian
 
-AI-Assisted Risk-Based Quality Engineering
-
----
-
-# Mission
-
-Help software teams release with greater confidence by combining human expertise with AI-assisted risk-based quality engineering.
-
-The landing page is not intended to sell software.
-
-Its purpose is to generate qualified conversations with engineering teams that need to improve software quality while reducing testing effort.
+AI-Assisted Risk-Based Quality Engineering Consulting
 
 ---
 
-# Business Goal
+## Mission
 
-Generate qualified leads.
+Help software teams release with greater confidence by combining human expertise with AI-assisted Risk-Based Quality Engineering.
 
-Primary KPI:
+The landing page exists to generate qualified engineering conversations.
 
-Book a Technical Review.
+---
 
-Secondary KPIs:
+## Business Goal
+
+Generate qualified consulting opportunities.
+
+Primary KPI
+
+Book a Technical Review
+
+Secondary KPIs
 
 - Contact requests
-- LinkedIn profile visits
-- Portfolio credibility
-- Service inquiries
+- LinkedIn visits
+- Consulting inquiries
 
 ---
 
-# Target Audience
+## Audience
 
 Primary
 
@@ -43,280 +40,89 @@ Primary
 - Engineering Managers
 - QA Managers
 - Tech Leads
-- Startup Founders
 
 Secondary
 
 - Product Managers
-- Development Teams
-- Recruiters looking for senior QA expertise
+- Startup Founders
+- Recruiters
 
 ---
 
-# Brand Positioning
+## Information Flow
 
-We do not sell testing.
+Visitors should understand information in this order:
 
-We help teams make better release decisions.
-
-Our differentiator is combining:
-
-- Requirement analysis
-- Risk analysis
-- AI reasoning
-- Test strategy
-- Exploratory testing
-- Quality engineering
-
----
-
-# Core Promise
-
-Release Better Software.
-Starting With Risk.
-
----
-
-# User Journey
-
-Visitor arrives.
+1. What Guardian does
 
 ↓
 
-Reads headline.
+2. What problem it solves
 
 ↓
 
-Understands methodology visually.
+3. Why the methodology is different
 
 ↓
 
-Understands services.
+4. How Guardian works
 
 ↓
 
-Trust increases.
+5. Why they should trust the approach
 
 ↓
 
-Books a technical review.
+6. How to start a conversation
 
 ---
 
-# Landing Structure
+## Navigation Strategy
 
-1. Navbar
+The navigation should expose only the primary landing sections.
 
-Simple.
+Navigation must minimize cognitive load.
 
-Minimal.
-
-Book Review CTA.
-
-Language switch.
+Every section should naturally lead to the next.
 
 ---
 
-2. Hero
+## Content Hierarchy
 
-Headline.
+Highest Priority
 
-Methodology.
+- Problem
+- Solution
+- Methodology
+- Trust
+- Call To Action
 
-CTA.
+Secondary
 
-Conceptual engineering visualization.
-
----
-
-3. Method
-
-How the approach works.
-
-Requirements
-
-↓
-
-Risk Analysis
-
-↓
-
-AI Assistance
-
-↓
-
-Test Strategy
-
-↓
-
-Execution
-
-↓
-
-Release Confidence
+- Company information
+- Future resources
 
 ---
 
-4. Services
+## Conversion Strategy
 
-Quick Review
+The landing is designed to generate conversations.
 
-Risk-Based QA
+Not immediate sales.
 
-AI-Augmented QA
-
----
-
-5. Why RBQE
-
-Benefits.
-
-Traditional QA vs AI-Assisted QA.
+Every section should reduce uncertainty before presenting the CTA.
 
 ---
 
-6. About
+## Future Expansion
 
-Who is behind RBQE.
+Future pages may include:
 
-Experience.
+- Services
+- Methodology
+- About
+- Case Studies
+- Blog
+- Contact
 
-Approach.
-
-Engineering mindset.
-
----
-
-7. CTA
-
-Book Technical Review.
-
-Calendly integration.
-
----
-
-8. Footer
-
-Navigation.
-
-LinkedIn.
-
-GitHub.
-
-Email.
-
----
-
-# Visual Direction
-
-Dark interface.
-
-Minimal.
-
-Engineering aesthetics.
-
-Large typography.
-
-Premium spacing.
-
-Subtle animations.
-
-No stock images.
-
-No marketing clichés.
-
----
-
-# Design Inspiration
-
-Linear
-
-Stripe
-
-Vercel
-
-Cursor
-
-Anthropic
-
----
-
-# Voice
-
-Technical.
-
-Clear.
-
-Professional.
-
-Confident.
-
-Never exaggerated.
-
----
-
-# Things We Never Say
-
-"We are the best."
-
-"Revolutionary."
-
-"Game changing."
-
-"Magic AI."
-
----
-
-# Things We Always Communicate
-
-Confidence.
-
-Engineering.
-
-Risk reduction.
-
-Better releases.
-
-Smarter testing.
-
----
-
-# Future Pages
-
-/
-
-Services
-
-Methodology
-
-About
-
-Case Studies
-
-Blog
-
-Contact
-
----
-
-# MVP Scope
-
-Only one landing page.
-
-Everything else comes later.
-
----
-
-# Success Criteria
-
-A visitor should understand:
-
-Who we help.
-
-What we do.
-
-Why our approach is different.
-
-How to contact us.
-
-All within the first 60 seconds.
+The MVP remains a single landing page.

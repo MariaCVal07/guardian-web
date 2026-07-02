@@ -2,11 +2,13 @@
 
 ## Purpose
 
-This document defines every section of the Guardian landing page.
+This document defines the implementation contract for every section of the Guardian landing page.
 
-Each section must have a clear business objective before implementation.
+Each section has a single business objective.
 
-The order of sections should guide the visitor naturally toward booking a technical review.
+Each section answers one customer question.
+
+Implementation must follow this specification.
 
 ---
 
@@ -14,15 +16,26 @@ The order of sections should guide the visitor naturally toward booking a techni
 
 ## Objective
 
-Provide simple navigation.
+Provide simple and intuitive navigation while keeping the primary call to action always visible.
 
-Always keep the primary CTA visible.
+## Business Question
 
-## Components
+"Where can I go?"
+
+## Required Components
 
 - Logo
-- Navigation
-- CTA Button
+- Navigation menu
+- Language switcher
+- Primary CTA button
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors can easily navigate the landing and always have access to the primary CTA.
 
 ---
 
@@ -30,22 +43,33 @@ Always keep the primary CTA visible.
 
 ## Objective
 
-Explain Guardian in less than 10 seconds.
+Explain Guardian in less than ten seconds.
 
-Answer:
+## Business Question
 
-- What is Guardian?
-- Why is it different?
-- What should I do next?
+"What does Guardian do?"
 
-## Components
+## Required Components
 
 - Badge
 - Headline
-- Supporting text
+- Supporting paragraph
 - Primary CTA
 - Secondary CTA
 - Engineering visualization
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors immediately understand:
+
+- Who Guardian helps.
+- What problem Guardian solves.
+- Why the approach is different.
+- What to do next.
 
 ---
 
@@ -53,24 +77,28 @@ Answer:
 
 ## Objective
 
-Expose the real problem with traditional QA approaches.
+Expose the limitations of traditional QA approaches.
 
-Help visitors recognize that the issue is not the lack of automation, but the lack of prioritization.
+Help visitors understand that the real problem is poor prioritization rather than lack of automation.
 
-## Components
+## Business Question
 
-- Small badge
+"Why do current QA approaches fail?"
+
+## Required Components
+
+- Section badge
 - Headline
 - Supporting paragraph
-- Problem flow
+- Problem flow visualization
 
-Flow
+### Flow
 
 Traditional QA
 
 ↓
 
-Everything gets automated
+Everything gets tested
 
 ↓
 
@@ -78,11 +106,19 @@ Critical business risks remain uncovered
 
 ↓
 
-Slower releases
+Lower release confidence
 
 ↓
 
-Lower confidence
+Higher business risk
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors recognize the problem before seeing the solution.
 
 ---
 
@@ -90,29 +126,51 @@ Lower confidence
 
 ## Objective
 
-Explain why Guardian takes a different engineering approach.
+Explain why Guardian follows a different engineering approach.
 
-## Components
+## Business Question
+
+"Why is Guardian different?"
+
+## Required Components
 
 - Section title
-- Intro paragraph
+- Introduction
 - Three value cards
 
-Cards
+### Value Cards
 
 - Risk First
 - AI-Assisted Engineering
 - Release Confidence
 
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors understand Guardian's unique value proposition.
+
 ---
 
-# 5. RBQE Framework
+# 5. Guardian Methodology
 
 ## Objective
 
-Explain the Guardian methodology.
+Present the RBQE methodology in a simple and structured way.
 
-Flow
+## Business Question
+
+"How does Guardian work?"
+
+## Required Components
+
+- Methodology title
+- Process visualization
+- Supporting explanation
+
+### Workflow
 
 Requirements
 
@@ -122,7 +180,7 @@ Risk Analysis
 
 ↓
 
-AI Reasoning
+AI-Assisted Reasoning
 
 ↓
 
@@ -136,6 +194,14 @@ Execution
 
 Release Confidence
 
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors understand the complete engineering workflow.
+
 ---
 
 # 6. Services
@@ -144,11 +210,25 @@ Release Confidence
 
 Present Guardian consulting services.
 
-Cards
+## Business Question
+
+"What services are available?"
+
+## Required Components
+
+Three service cards:
 
 - Technical Review
-- Risk-Based QA
-- AI-Augmented QA
+- Risk-Based Quality Engineering
+- AI-Assisted Quality Engineering
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors clearly understand the available consulting services.
 
 ---
 
@@ -156,11 +236,25 @@ Cards
 
 ## Objective
 
-Present Guardian's engineering philosophy.
+Present Guardian's engineering philosophy and professional credibility.
 
-Focus on credibility.
+## Business Question
 
-Not biography.
+"Why should I trust Guardian?"
+
+## Required Components
+
+- Section title
+- Brief introduction
+- Engineering principles
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors perceive Guardian as an engineering partner rather than a freelancer.
 
 ---
 
@@ -168,7 +262,24 @@ Not biography.
 
 ## Objective
 
-Answer common questions before the visitor schedules a meeting.
+Reduce uncertainty before the visitor schedules a meeting.
+
+## Business Question
+
+"What questions might I still have?"
+
+## Required Components
+
+- Frequently asked questions
+- Expandable answers
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+The most common objections are addressed before the CTA.
 
 ---
 
@@ -176,50 +287,75 @@ Answer common questions before the visitor schedules a meeting.
 
 ## Objective
 
-Generate qualified conversations.
+Encourage qualified visitors to start a conversation.
 
-Primary CTA
+## Business Question
 
-Book Technical Review
+"What should I do next?"
 
-Secondary CTA
+## Required Components
 
-LinkedIn
+- Strong headline
+- Supporting text
+- Primary CTA
+- Secondary CTA
+
+### Primary CTA
+
+Book a Technical Review
+
+### Secondary CTA
+
+Visit LinkedIn
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors clearly understand the next action.
 
 ---
 
 # 10. Footer
 
-Navigation
+## Objective
 
-Email
+Provide secondary navigation and contact information.
 
-LinkedIn
+## Business Question
 
-GitHub
+"Where can I find more information?"
 
-Copyright
+## Required Components
+
+- Navigation links
+- Email
+- LinkedIn
+- GitHub
+- Copyright
+
+## Content Source
+
+src/messages/
+
+## Success Criteria
+
+Visitors can access additional information without distracting from the main conversion goal.
 
 ---
 
-# MVP Rule
+# Global Rules
 
-Every section must answer one question only.
+Every section must:
 
-Avoid mixing multiple objectives in the same section.
-
----
-
-# Global Design Rules
-
-Every section must answer exactly one business question.
-
-Every section should naturally lead to the next one.
-
-Avoid repeating the same message across multiple sections.
-
-The landing page should feel like a conversation, not a brochure.
-
-Each section should increase trust before asking for commitment.
-
-Every visual element must reinforce professionalism, clarity and engineering excellence.
+- Answer one business question.
+- Support the primary conversion goal.
+- Read all user-facing text from `src/messages/`.
+- Follow the design system.
+- Be fully responsive.
+- Use reusable components.
+- Avoid duplicated content.
+- Maintain a clear information hierarchy.
+- Guide visitors naturally toward the next section.

@@ -1,4 +1,32 @@
 # PROJECT
+# Guardian
+
+## Project Overview
+
+Guardian is an engineering consulting platform focused on AI-Assisted Risk-Based Quality Engineering (RBQE).
+
+The objective of this repository is to build a production-ready marketing website that communicates the Guardian methodology and services with a premium software company aesthetic.
+
+This project follows a Specification-Driven Development (SDD) approach.
+
+Documentation is the single source of truth.
+
+---
+
+# Before You Start
+
+Every AI agent contributing to this repository must read the documentation before making changes.
+
+Follow this order:
+
+1. PROJECT.md
+2. docs/product/
+3. docs/design/
+4. docs/development/
+
+Never implement features based on assumptions.
+
+Always follow the documented specifications.
 
 ## Purpose
 
@@ -192,3 +220,89 @@ Why I am different.
 How to contact me.
 
 If those four questions are not answered clearly, the project has failed.
+
+---
+
+# Current Status
+
+## Phase
+
+Landing Page V1
+
+## Completed
+
+- [x] Project architecture
+- [x] Project documentation
+- [x] Navbar
+- [x] Hero
+
+## In Progress
+
+- [ ] The Problem
+
+## Pending
+
+- [ ] Why Guardian
+- [ ] RBQE Framework
+- [ ] Services
+- [ ] About
+- [ ] FAQ
+- [ ] Final CTA
+- [ ] Footer
+
+## Current Priority
+
+Implement the next landing section following the project documentation.
+
+---
+
+# Documentation Index
+
+## Strategy
+
+docs/strategy/
+
+Defines:
+
+- Business positioning
+- Target audience
+- Value proposition
+- Service offering
+
+---
+
+## Product
+
+docs/product/
+
+Defines:
+
+- Landing structure
+- User flow
+- Section specifications
+
+---
+
+## Design
+
+docs/design/
+
+Defines:
+
+- Visual language
+- Brand identity
+- UI specifications
+- Design system
+
+---
+
+## Development
+
+docs/development/
+
+Defines:
+
+- Frontend architecture
+- AI workflow
+- Agent guidelines
+- Review checklist
