@@ -49,13 +49,48 @@ Answer:
 
 ---
 
-# 3. Why Guardian
+# 3. The Problem
 
 ## Objective
 
-Explain why traditional QA approaches miss critical business risks.
+Expose the real problem with traditional QA approaches.
 
-Position Guardian as a smarter engineering approach.
+Help visitors recognize that the issue is not the lack of automation, but the lack of prioritization.
+
+## Components
+
+- Small badge
+- Headline
+- Supporting paragraph
+- Problem flow
+
+Flow
+
+Traditional QA
+
+↓
+
+Everything gets automated
+
+↓
+
+Critical business risks remain uncovered
+
+↓
+
+Slower releases
+
+↓
+
+Lower confidence
+
+---
+
+# 4. Why Guardian
+
+## Objective
+
+Explain why Guardian takes a different engineering approach.
 
 ## Components
 
@@ -63,21 +98,21 @@ Position Guardian as a smarter engineering approach.
 - Intro paragraph
 - Three value cards
 
-Cards:
+Cards
 
-Risk First
-
-AI-Assisted Engineering
-
-Release Confidence
+- Risk First
+- AI-Assisted Engineering
+- Release Confidence
 
 ---
 
-# 4. RBQE Methodology
+# 5. RBQE Framework
 
 ## Objective
 
-Explain the complete workflow.
+Explain the Guardian methodology.
+
+Flow
 
 Requirements
 
@@ -103,27 +138,25 @@ Release Confidence
 
 ---
 
-# 5. Services
+# 6. Services
 
 ## Objective
 
-Present the consulting services offered by Guardian.
+Present Guardian consulting services.
 
-Cards:
+Cards
 
-Quick Review
-
-Risk-Based QA
-
-AI-Augmented QA
+- Technical Review
+- Risk-Based QA
+- AI-Augmented QA
 
 ---
 
-# 6. About
+# 7. About
 
 ## Objective
 
-Introduce the engineering philosophy behind Guardian.
+Present Guardian's engineering philosophy.
 
 Focus on credibility.
 
@@ -131,33 +164,41 @@ Not biography.
 
 ---
 
-# 7. Final CTA
+# 8. FAQ
+
+## Objective
+
+Answer common questions before the visitor schedules a meeting.
+
+---
+
+# 9. Final CTA
 
 ## Objective
 
 Generate qualified conversations.
 
-Primary CTA:
+Primary CTA
 
 Book Technical Review
 
-Secondary CTA:
+Secondary CTA
 
 LinkedIn
 
 ---
 
-# 8. Footer
+# 10. Footer
 
-Navigation.
+Navigation
 
-Email.
+Email
 
-LinkedIn.
+LinkedIn
 
-GitHub.
+GitHub
 
-Copyright.
+Copyright
 
 ---
 
@@ -166,3 +207,19 @@ Copyright.
 Every section must answer one question only.
 
 Avoid mixing multiple objectives in the same section.
+
+---
+
+# Global Design Rules
+
+Every section must answer exactly one business question.
+
+Every section should naturally lead to the next one.
+
+Avoid repeating the same message across multiple sections.
+
+The landing page should feel like a conversation, not a brochure.
+
+Each section should increase trust before asking for commitment.
+
+Every visual element must reinforce professionalism, clarity and engineering excellence.
