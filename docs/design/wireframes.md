@@ -1,209 +1,331 @@
-# Overview
+# Wireframes
 
-This document defines the structural layout of the MVP landing page.
+## Purpose
 
-It focuses on content hierarchy and user intent rather than visual design.
+This document defines the structural layout of every section of the Guardian landing page.
 
-Every section exists to answer a specific customer question and move the visitor closer to initiating a conversation.
+It focuses on information hierarchy rather than visual styling.
+
+Visual appearance is defined by the Design System.
 
 ---
 
-# Section 1 — Hero
+# Page Structure
 
-## Objective
+Navbar
 
-Explain the service immediately and encourage the visitor to continue exploring.
+↓
 
-## User Question
+Hero
 
-"What do you do?"
+↓
 
-## Content
+Problem
+
+↓
+
+Why Guardian
+
+↓
+
+Methodology
+
+↓
+
+Services
+
+↓
+
+About
+
+↓
+
+FAQ
+
+↓
+
+Final CTA
+
+↓
+
+Footer
+
+---
+
+# 1. Navbar
+
+Layout
+
+----------------------------------------------------
+Logo
+
+Navigation Links
+
+Language Switcher
+
+Primary CTA
+----------------------------------------------------
+
+Purpose
+
+Provide navigation without distracting from the main conversion.
+
+---
+
+# 2. Hero
+
+Layout
+
+----------------------------------------------------
+
+Badge
+
+Large Headline
+
+Supporting Paragraph
+
+Primary CTA      Secondary CTA
+
+Engineering Illustration
+
+----------------------------------------------------
+
+Purpose
+
+Explain Guardian in less than ten seconds.
+
+---
+
+# 3. Problem
+
+Layout
+
+----------------------------------------------------
+
+Badge
 
 Headline
 
-Short supporting description
+Supporting Paragraph
+
+Vertical Problem Flow
+
+Traditional QA
+
+↓
+
+Everything Gets Tested
+
+↓
+
+Critical Risks Stay Hidden
+
+↓
+
+Lower Release Confidence
+
+----------------------------------------------------
+
+Purpose
+
+Help visitors recognize the problem before presenting the solution.
+
+---
+
+# 4. Why Guardian
+
+Layout
+
+----------------------------------------------------
+
+Badge
+
+Headline
+
+Supporting Paragraph
+
++-------------+
+| Risk First |
++-------------+
+
++----------------------+
+| AI-Assisted Analysis |
++----------------------+
+
++---------------------+
+| Release Confidence |
++---------------------+
+
+----------------------------------------------------
+
+Purpose
+
+Present Guardian's differentiators.
+
+---
+
+# 5. Methodology
+
+Layout
+
+----------------------------------------------------
+
+Requirements
+
+↓
+
+Risk Analysis
+
+↓
+
+AI-Assisted Reasoning
+
+↓
+
+Test Strategy
+
+↓
+
+Execution
+
+↓
+
+Release Confidence
+
+----------------------------------------------------
+
+Purpose
+
+Explain the engineering workflow visually.
+
+---
+
+# 6. Services
+
+Layout
+
+----------------------------------------------------
+
+Card 1
+
+Technical Review
+
+Card 2
+
+Risk-Based Quality Engineering
+
+Card 3
+
+AI-Assisted Quality Engineering
+
+----------------------------------------------------
+
+Purpose
+
+Present consulting services.
+
+---
+
+# 7. About
+
+Layout
+
+----------------------------------------------------
+
+Headline
+
+Engineering Philosophy
+
+Brief Introduction
+
+Core Principles
+
+----------------------------------------------------
+
+Purpose
+
+Build credibility through engineering thinking.
+
+---
+
+# 8. FAQ
+
+Layout
+
+----------------------------------------------------
+
+Question
+
+Answer
+
+Question
+
+Answer
+
+Question
+
+Answer
+
+----------------------------------------------------
+
+Purpose
+
+Reduce uncertainty before the CTA.
+
+---
+
+# 9. Final CTA
+
+Layout
+
+----------------------------------------------------
+
+Strong Headline
+
+Supporting Paragraph
 
 Primary CTA
 
 Secondary CTA
 
-Visual illustration representing AI-Assisted Quality Engineering
+----------------------------------------------------
 
-## Components
+Purpose
+
+Encourage visitors to start a conversation.
+
+---
+
+# 10. Footer
+
+Layout
+
+----------------------------------------------------
 
 Navigation
 
-Language Switcher
-
-Headline
-
-Description
-
-Primary Button
-
-Secondary Button
-
-Hero Illustration
-
----
-
-# Section 2 — How It Works
-
-## Objective
-
-Explain what the customer receives.
-
-## User Question
-
-"How can you help my team?"
-
-## Content
-
-Service cards.
-
-Each card includes:
-
-- Service name
-- Short description
-- Customer outcome
-
-Maximum four cards.
-
-## Components
-
-Section title
-
-Section description
-
-Service Cards
-
----
-
-# Section 3 — Why This Approach
-
-## Objective
-
-Explain why this methodology is different.
-
-## User Question
-
-"Why shouldn't I simply use AI?"
-
-## Content
-
-Explain the relationship between:
-
-Artificial Intelligence
-
-+
-
-Risk-Based Quality Engineering
-
-+
-
-Engineering Expertise
-
-Focus on outcomes instead of technology.
-
-## Components
-
-Section title
-
-Supporting description
-
-Three value blocks
-
----
-
-# Section 4 — Contact
-
-## Objective
-
-Reduce friction and encourage conversation.
-
-## User Question
-
-"How do I get started?"
-
-## Content
-
-Short invitation.
-
-Contact form.
-
-Alternative contact methods.
-
-## Components
-
-Section title
-
-Short paragraph
-
-Contact Form
-
 LinkedIn
 
+GitHub
+
 Email
-
-Primary CTA
-
----
-
-# Navigation
-
-Navigation should remain visible.
-
-Items:
-
-Home
-
-Services
-
-Approach
-
-Contact
-
-Language Selector
-
-Primary CTA
-
----
-
-# Footer
-
-Simple footer.
-
-Include:
-
-Brand name
 
 Copyright
 
-LinkedIn
+----------------------------------------------------
 
-Email
+Purpose
 
----
-
-# Mobile Behavior
-
-Sections stack vertically.
-
-Navigation becomes a menu.
-
-Primary CTA always remains visible.
-
-Cards become vertical.
-
-Spacing remains generous.
+Provide secondary navigation and contact information.
 
 ---
 
-# Success Criteria
+# Global Layout Rules
 
-A developer or AI assistant should be able to build the complete landing page using only this document together with:
-
-- landing-page-spec.md
-- design-system.md
-- copywriting.md
+- One primary objective per section.
+- Consistent spacing between sections.
+- Consistent content width.
+- Clear typography hierarchy.
+- Responsive by default.
+- Every section should naturally lead to the next.
+- The landing should feel like a guided engineering conversation.

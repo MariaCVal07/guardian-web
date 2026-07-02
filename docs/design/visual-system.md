@@ -1,149 +1,185 @@
 # Visual System
 
-## Design Goal
+## Purpose
 
-The landing page should communicate technical expertise, trust and clarity.
+This document defines the reusable visual language of the Guardian interface.
 
-Visitors should immediately perceive this as an engineering service, not a marketing agency.
+Every UI element should feel like it belongs to the same engineering product.
+
+Consistency is more important than originality.
 
 ---
 
-# Personality
+# Design Principles
+
+The interface should feel:
 
 - Technical
-- Minimal
 - Modern
-- Precise
-- Calm
+- Minimal
 - Professional
+- Premium
 
-Avoid:
+Avoid unnecessary decoration.
 
-- Bright gradients
-- Neon colors
-- Excessive animations
-- Generic startup illustrations
+Every visual element must support usability.
 
 ---
 
-# Visual Style
+# Color Philosophy
 
-Use generous whitespace.
+The visual identity is based on dark surfaces with subtle contrast.
 
-Cards should feel lightweight.
+Primary goals:
 
-Typography should do most of the work.
+- Reduce visual noise.
+- Increase content readability.
+- Reinforce a technical aesthetic.
 
-Icons should be simple outline icons.
+Accent colors should only guide attention.
 
-Animations should only reinforce interactions.
-
----
-
-# Color Palette
-
-Primary:
-Near Black
-
-Secondary:
-White
-
-Accent:
-Blue
-
-Success:
-Green
-
-Warning:
-Amber
-
-Danger:
-Red
-
-Gray scale:
-Multiple neutral grays
+Never decorate with color.
 
 ---
 
 # Typography
 
-Headings:
-Bold
+Typography is the primary communication tool.
 
-Body:
-Readable
+Use hierarchy instead of excessive color.
 
-Maximum content width:
-1200px
+Rules:
 
----
+- Large headings
+- Comfortable line spacing
+- Short paragraphs
+- High contrast
+- Consistent font weights
 
-# Border Radius
-
-Subtle.
-
-Avoid exaggerated rounded corners.
+Readable content is more important than artistic layouts.
 
 ---
 
-# Shadows
+# Spacing
 
-Very soft.
+Whitespace is intentional.
 
-Use shadows only to separate surfaces.
+Every section should breathe.
+
+Spacing should communicate confidence and structure.
+
+Never compress content to fill empty areas.
+
+---
+
+# Layout
+
+Use a consistent content width across the site.
+
+Every section should align to the same grid.
+
+Maintain generous vertical spacing between sections.
+
+---
+
+# Cards
+
+Cards should be:
+
+- Simple
+- Flat
+- Subtle
+- Clearly separated
+
+Avoid heavy borders.
+
+Avoid excessive shadows.
+
+Hover effects should be minimal.
 
 ---
 
 # Buttons
 
-Primary button:
-Solid.
+Buttons should clearly communicate priority.
 
-Secondary button:
-Outline.
+Primary buttons:
 
-Never use more than two button styles.
+- Solid
+- High contrast
 
----
+Secondary buttons:
 
-# Images
+- Outline or subtle background
 
-Use engineering-related visuals.
-
-Examples:
-
-- Architecture diagrams
-- Dashboards
-- Code
-- Risk matrices
-- Test reports
-
-Avoid stock photos of people smiling.
+Avoid oversized buttons.
 
 ---
 
-# Responsive
+# Icons
 
-Mobile First.
+Icons support understanding.
 
-Desktop should feel spacious.
+They should never replace text.
 
-Tablet should preserve hierarchy.
+Use a consistent style throughout the project.
+
+---
+
+# Animations
+
+Animations should improve usability.
+
+Allowed:
+
+- Fade
+- Opacity
+- Small translations
+- Smooth hover states
+
+Avoid:
+
+- Large movements
+- Flashing effects
+- Continuous animations
+- Decorative motion
+
+---
+
+# Responsive Design
+
+The experience should remain consistent across:
+
+- Mobile
+- Tablet
+- Desktop
+
+Layouts may change.
+
+Content hierarchy must not.
 
 ---
 
 # Accessibility
 
-High contrast.
+Every interface should provide:
 
-Visible focus states.
+- High contrast
+- Visible focus states
+- Readable typography
+- Keyboard accessibility
+- Semantic HTML
 
-Keyboard navigation.
-
-Semantic HTML.
+Accessibility is part of the design, not an afterthought.
 
 ---
 
-# Development Rule
+# Visual Consistency
 
-Visual consistency is more important than visual creativity.
+Before introducing a new visual pattern, verify:
+
+- Does it already exist?
+- Can an existing component be reused?
+- Does it reinforce the Guardian identity?
+
+If not, it should not be added.

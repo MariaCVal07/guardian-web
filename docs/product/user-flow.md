@@ -1,159 +1,130 @@
-# Overview
+# User Flow
 
-This document defines the visitor's journey through the landing page.
+## Purpose
 
-The objective is not simply to display information.
+This document defines the ideal visitor journey through the Guardian landing page.
 
-The objective is to guide visitors from curiosity to confidence and finally to action.
+The objective is to move visitors from curiosity to confidence, and finally to action.
 
-Every section should answer the next question in the visitor's mind.
+Each section should answer the next logical question in the visitor's mind.
 
 ---
 
-# Step 1
+# Step 1 — Awareness
 
 ## Visitor Question
 
-What do you actually do?
+What does Guardian do?
 
-## Our Answer
+## Expected Outcome
 
-We help software teams improve software quality using AI-Assisted Risk-Based Quality Engineering.
-
-The visitor should immediately understand that we improve software quality before defects become expensive.
+Visitors immediately understand that Guardian helps software teams improve release confidence through AI-Assisted Risk-Based Quality Engineering.
 
 ---
 
-# Step 2
+# Step 2 — Problem Recognition
 
 ## Visitor Question
 
-Why should I care?
+Why is my current QA process not enough?
 
-## Our Answer
+## Expected Outcome
 
-Most software defects begin with misunderstood requirements, hidden risks and incomplete testing strategies.
-
-Finding these issues earlier saves time, money and rework.
-
-The visitor should recognize a problem they already experience.
+Visitors recognize that the biggest challenge is not automation, but identifying and prioritizing the highest business risks before release.
 
 ---
 
-# Step 3
+# Step 3 — Differentiation
 
 ## Visitor Question
 
-How do you solve this?
+Why is Guardian different?
 
-## Our Answer
+## Expected Outcome
 
-Explain the service at a high level.
-
-Show that Artificial Intelligence accelerates the analysis while engineering expertise validates every recommendation.
-
-Avoid explaining technical implementation.
-
-Focus on outcomes.
+Visitors understand that Guardian combines engineering expertise, risk-based thinking and AI-assisted analysis instead of relying solely on automation or generic AI tools.
 
 ---
 
-# Step 4
+# Step 4 — Methodology
 
 ## Visitor Question
 
-Why is this different?
+How does Guardian work?
 
-## Our Answer
+## Expected Outcome
 
-Generic AI generates answers.
-
-Our methodology generates engineering decisions.
-
-Risk-Based Quality Engineering provides structure, prioritization and business context.
-
-The visitor should understand that the value comes from the methodology, not from AI alone.
+Visitors understand the Guardian methodology from requirements analysis through release confidence using a structured engineering workflow.
 
 ---
 
-# Step 5
+# Step 5 — Services
 
 ## Visitor Question
 
-Can I trust you?
+How can Guardian help my team?
 
-## Our Answer
+## Expected Outcome
 
-Present concise evidence.
-
-Examples:
-
-Professional experience.
-
-Quality Engineering expertise.
-
-AI-assisted methodology.
-
-Avoid overwhelming the visitor with certifications or long resumes.
-
-Trust should come from clarity and professionalism.
+Visitors clearly understand the consulting services offered and how each one addresses specific quality engineering needs.
 
 ---
 
-# Step 6
+# Step 6 — Trust
+
+## Visitor Question
+
+Why should I trust Guardian?
+
+## Expected Outcome
+
+Visitors perceive Guardian as a professional engineering consulting partner with a structured methodology and technical expertise.
+
+---
+
+# Step 7 — Decision
 
 ## Visitor Question
 
 What should I do next?
 
-## Our Answer
+## Expected Outcome
 
-Invite the visitor to start a conversation.
-
-The call to action should feel simple and low commitment.
-
-Examples:
-
-Book a Call
-
-Let's Talk
-
-Discuss Your Project
+Visitors feel confident enough to schedule a Technical Review or initiate a conversation.
 
 ---
 
 # Navigation Principles
 
-The visitor should never wonder where to go next.
+The visitor should never feel lost.
 
-Every section naturally leads to the following one.
+Each section should naturally lead to the next.
 
-Scrolling should feel effortless.
+Scrolling should feel effortless and intentional.
+
+Navigation should always provide access to the primary CTA.
 
 ---
 
 # User Experience Principles
 
-Reduce cognitive load.
-
-One idea per section.
-
-One primary call to action.
-
-No unnecessary distractions.
-
-Every element should support trust.
+- One business objective per section.
+- One primary message per section.
+- One primary CTA.
+- Minimal cognitive load.
+- Clear information hierarchy.
+- Progressive trust building.
 
 ---
 
 # Success Criteria
 
-The visitor should reach the contact section without feeling lost.
+A successful visitor journey means the visitor understands:
 
-At every point in the journey they should understand:
+- What Guardian does.
+- What problem Guardian solves.
+- Why the methodology is different.
+- Why Guardian is trustworthy.
+- What action to take next.
 
-Where they are.
-
-Why the information matters.
-
-What comes next.
+The landing should feel like a guided engineering conversation rather than a marketing presentation.

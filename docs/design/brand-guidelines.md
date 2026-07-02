@@ -1,157 +1,102 @@
-# Guardian Brand Guidelines
+# Brand Guidelines
 
-## Brand
+## Purpose
 
-Guardian
+This document defines how Guardian should be perceived through its visual identity, communication style and overall user experience.
 
-## Tagline
-
-AI-Assisted Risk-Based Quality Engineering
+Every design decision should reinforce trust, clarity and engineering excellence.
 
 ---
 
-# Mission
+# Brand Positioning
 
-Help software teams release better software by identifying risks earlier through AI-assisted quality engineering.
+Guardian is an engineering consulting brand.
 
----
+It is not:
 
-# Vision
+- A freelancer portfolio
+- A software startup
+- A personal blog
+- A marketing agency
 
-Become the trusted quality engineering partner for modern software teams.
+Guardian should always feel like a modern engineering company.
 
 ---
 
 # Brand Personality
 
+Guardian communicates:
+
+- Professionalism
+- Precision
+- Technical expertise
+- Trust
+- Clarity
+- Confidence
+
+Guardian never communicates:
+
+- Hype
+- Aggressive marketing
+- Luxury
+- Entertainment
+- Corporate bureaucracy
+
+---
+
+# Communication Style
+
+Every message should be:
+
+- Clear
+- Direct
 - Technical
-- Reliable
-- Intelligent
-- Precise
+- Professional
+- Honest
+
+Avoid exaggerated claims.
+
+Never overpromise results.
+
+Let methodology and expertise create credibility.
+
+---
+
+# Visual Identity
+
+The interface should feel:
+
+- Minimal
+- Structured
 - Modern
 - Calm
-- Transparent
+- Intentional
+
+Whitespace is part of the design.
+
+Every visual element must have a purpose.
 
 ---
 
-# What Guardian Is
+# User Perception
 
-✔ A quality engineering partner.
+After visiting the website, users should think:
 
-✔ AI-assisted.
-
-✔ Risk-driven.
-
-✔ Business-oriented.
-
-✔ Engineering-first.
-
----
-
-# What Guardian Is Not
-
-✘ A testing agency.
-
-✘ A freelancer portfolio.
-
-✘ A bug hunting service.
-
-✘ A low-cost QA provider.
-
----
-
-# Core Message
-
-We don't sell testing.
-
-We help teams make better release decisions.
-
----
-
-# Tone of Voice
-
-Clear.
-
-Professional.
-
-Confident.
-
-Simple.
-
-Technical.
-
-Never exaggerated.
-
----
-
-# Color Palette
-
-Background
-
-#09090B
-
-Surface
-
-#111827
-
-Primary
-
-#3B82F6
-
-Accent
-
-#7C3AED
-
-Success
-
-#22C55E
-
-Text Primary
-
-#F9FAFB
-
-Text Secondary
-
-#9CA3AF
-
-Borders
-
-#1F2937
-
----
-
-# Typography
-
-Large headings.
-
-Minimal paragraphs.
-
-Generous spacing.
-
-Readable code-inspired aesthetic.
-
----
-
-# Visual Principles
-
-No stock photos.
-
-No people.
-
-No fake dashboards.
-
-Use:
-
-- nodes
-- connections
-- flows
-- cards
-- graphs
-- engineering diagrams
+- "These people understand software quality."
+- "This is a structured engineering approach."
+- "I trust this methodology."
+- "I would like to discuss my project with them."
 
 ---
 
 # Brand Promise
 
-Release Better Software.
-Starting With Risk.
+Guardian helps engineering teams make better release decisions by combining human expertise with AI-Assisted Risk-Based Quality Engineering.
+
+---
+
+# Consistency Rules
+
+Every new page, component or feature must reinforce the same brand perception.
+
+If a design decision weakens trust or clarity, it should be rejected.

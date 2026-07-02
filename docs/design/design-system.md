@@ -1,338 +1,203 @@
-# Overview
+# Design System
 
-This document defines the visual principles of the brand.
+## Purpose
 
-The goal is not to create an attractive website.
+This document defines the design tokens and visual rules used throughout the Guardian project.
 
-The goal is to create a trustworthy engineering product.
-
-Every design decision should reinforce professionalism, clarity and confidence.
+Every interface should be built using this system to ensure consistency, scalability and maintainability.
 
 ---
 
 # Design Philosophy
 
-The interface should feel like a modern software product.
+The Guardian interface should feel like a modern engineering platform.
 
-It should never resemble:
+The experience should communicate:
 
-- a freelancer portfolio
-- a marketing landing page
-- a personal blog
-
-Visitors should perceive a structured engineering company.
-
----
-
-# Visual Principles
-
-## Clarity First
-
-Every section communicates one idea.
-
-Avoid visual noise.
-
-Avoid unnecessary decorations.
-
----
-
-## Space Creates Confidence
-
-Generous spacing improves readability.
-
-Do not try to fill every empty area.
-
-White space is part of the design.
-
----
-
-## Information Hierarchy
-
-The visitor should always know:
-
-- what is most important
-- what to read next
-- where to take action
-
-Visual hierarchy should guide attention naturally.
-
----
-
-## Simplicity Over Effects
-
-Animations should support usability.
-
-Never use animations for decoration.
-
-The interface should feel fast, stable and intentional.
-
----
-
-# Brand Personality
-
-The visual identity should communicate:
-
-- Professionalism
-- Precision
-- Intelligence
 - Trust
+- Precision
 - Simplicity
+- Technical excellence
 
-It should never communicate:
-
-- Aggressive marketing
-- Luxury
-- Gaming
-- Futuristic science fiction
-- Corporate bureaucracy
-
----
-
-# Component Principles
-
-Every component should answer a purpose.
-
-Examples:
-
-Cards organize information.
-
-Buttons encourage action.
-
-Icons reinforce understanding.
-
-No component should exist only for decoration.
-
----
-
-# Content Density
-
-Use short paragraphs.
-
-Prefer lists over long blocks of text.
-
-Highlight key ideas.
-
-Reduce cognitive load.
-
-The visitor should understand the page with a quick scan.
-
----
-
-# Accessibility
-
-Text must always be easy to read.
-
-Interactive elements should be obvious.
-
-Color should never be the only way to communicate information.
-
-The website should be usable on desktop, tablet and mobile devices.
-
----
-
-# Responsive Principles
-
-Design mobile first.
-
-The mobile experience should contain the same information as desktop.
-
-Content order must remain logical across all screen sizes.
-
----
-
-# Success Criteria
-
-A visitor should perceive the brand as:
-
-An engineering company that leverages Artificial Intelligence.
-
-Not as an AI startup.
-
-Not as a freelancer.
-
-Not as a content creator.
+Consistency always takes priority over visual novelty.
 
 ---
 
 # Design Tokens
 
-## Colors
+## Color Palette
 
 ### Background
 
-#09090B
+- Primary Background
+- Secondary Background
+- Surface
+- Elevated Surface
 
-### Surface
+### Text
 
-#111827
+- Primary Text
+- Secondary Text
+- Muted Text
 
-### Border
+### Actions
 
-#1F2937
+- Primary Action
+- Secondary Action
+- Success
+- Warning
+- Error
 
-### Primary
-
-#3B82F6
-
-### Accent
-
-#7C3AED
-
-### Success
-
-#22C55E
-
-### Text Primary
-
-#F9FAFB
-
-### Text Secondary
-
-#9CA3AF
+Accent colors should only emphasize important actions.
 
 ---
 
-# Typography Scale
+# Typography
 
-## Hero Title
+Use a single font family across the application.
 
-56–64px
+Hierarchy:
 
-Bold
+- Display
+- H1
+- H2
+- H3
+- Body Large
+- Body
+- Small
+- Caption
 
-Line height 1.1
-
----
-
-## Section Title
-
-40px
-
-Bold
-
----
-
-## Body
-
-18px
-
-Line height 1.7
+Typography should create hierarchy before color does.
 
 ---
 
-## Caption
+# Spacing Scale
 
-14px
+Use a consistent spacing system.
 
----
+Recommended scale:
 
-# Layout
+- XS
+- SM
+- MD
+- LG
+- XL
+- 2XL
+- 3XL
 
-Maximum content width
-
-1200px
-
-Maximum page width
-
-1280px
-
-Section spacing
-
-120px
-
-Container padding
-
-24px mobile
-
-48px desktop
+Avoid arbitrary spacing values.
 
 ---
 
-# Components
+# Border Radius
 
-## Buttons
+Use subtle rounded corners.
 
-Primary
+Components should feel modern without appearing playful.
 
-Filled
-
-Blue background
-
-Rounded corners
-
-Medium shadow
-
-Hover:
-
-Slight brightness increase
-
-Secondary
-
-Transparent
-
-Border only
+Maintain the same radius scale across all components.
 
 ---
 
-## Cards
+# Shadows
 
-Dark surface
+Shadows should communicate elevation.
 
-Thin border
+Use:
 
-16px radius
+- None
+- Small
+- Medium
 
-No heavy shadows
-
----
-
-## Badges
-
-Rounded pill
-
-Small uppercase text
-
-Subtle border
+Avoid heavy shadows.
 
 ---
 
-# Icons
+# Borders
 
-Use Lucide React.
+Borders should be subtle.
 
-Keep icon size between 18px and 24px.
-
----
-
-# Motion
-
-Animations should be subtle.
-
-Duration:
-
-150–250ms
-
-Avoid:
-
-- bouncing
-- scaling effects
-- excessive transitions
+They should separate content without becoming visually dominant.
 
 ---
 
-# Visual Language
+# Grid System
 
-Use visual elements that communicate engineering:
+Use a consistent layout grid.
 
-- connected nodes
-- flows
-- timelines
-- architecture diagrams
-- AI reasoning
-- risk analysis
+Content should align vertically and horizontally.
 
-Avoid:
+Every section should share the same maximum width.
 
-- stock photography
-- generic SaaS dashboards
-- decorative graphics with no meaning
+---
+
+# Component Hierarchy
+
+Foundation Components
+
+- Container
+- Section
+- Button
+- Card
+
+Navigation Components
+
+- Navbar
+- Footer
+
+Landing Components
+
+- Hero
+- Problem
+- Why Guardian
+- Methodology
+- Services
+- About
+- FAQ
+- CTA
+
+---
+
+# Responsive Rules
+
+Every component should support:
+
+- Mobile
+- Tablet
+- Desktop
+
+Layout may adapt.
+
+Content hierarchy must remain unchanged.
+
+---
+
+# Accessibility
+
+The design system must guarantee:
+
+- Readable typography
+- Keyboard navigation
+- Visible focus states
+- Accessible contrast
+- Semantic structure
+
+Accessibility is mandatory.
+
+---
+
+# Reusability
+
+Never create duplicate visual patterns.
+
+If a component already exists, reuse or extend it.
+
+Every new component should become part of the design system.
+
+---
+
+# Evolution
+
+The design system is a living document.
+
+New patterns should only be introduced when they solve a recurring problem and improve consistency.
