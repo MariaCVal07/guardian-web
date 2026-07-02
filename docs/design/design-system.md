@@ -151,3 +151,188 @@ Not as an AI startup.
 Not as a freelancer.
 
 Not as a content creator.
+
+---
+
+# Design Tokens
+
+## Colors
+
+### Background
+
+#09090B
+
+### Surface
+
+#111827
+
+### Border
+
+#1F2937
+
+### Primary
+
+#3B82F6
+
+### Accent
+
+#7C3AED
+
+### Success
+
+#22C55E
+
+### Text Primary
+
+#F9FAFB
+
+### Text Secondary
+
+#9CA3AF
+
+---
+
+# Typography Scale
+
+## Hero Title
+
+56–64px
+
+Bold
+
+Line height 1.1
+
+---
+
+## Section Title
+
+40px
+
+Bold
+
+---
+
+## Body
+
+18px
+
+Line height 1.7
+
+---
+
+## Caption
+
+14px
+
+---
+
+# Layout
+
+Maximum content width
+
+1200px
+
+Maximum page width
+
+1280px
+
+Section spacing
+
+120px
+
+Container padding
+
+24px mobile
+
+48px desktop
+
+---
+
+# Components
+
+## Buttons
+
+Primary
+
+Filled
+
+Blue background
+
+Rounded corners
+
+Medium shadow
+
+Hover:
+
+Slight brightness increase
+
+Secondary
+
+Transparent
+
+Border only
+
+---
+
+## Cards
+
+Dark surface
+
+Thin border
+
+16px radius
+
+No heavy shadows
+
+---
+
+## Badges
+
+Rounded pill
+
+Small uppercase text
+
+Subtle border
+
+---
+
+# Icons
+
+Use Lucide React.
+
+Keep icon size between 18px and 24px.
+
+---
+
+# Motion
+
+Animations should be subtle.
+
+Duration:
+
+150–250ms
+
+Avoid:
+
+- bouncing
+- scaling effects
+- excessive transitions
+
+---
+
+# Visual Language
+
+Use visual elements that communicate engineering:
+
+- connected nodes
+- flows
+- timelines
+- architecture diagrams
+- AI reasoning
+- risk analysis
+
+Avoid:
+
+- stock photography
+- generic SaaS dashboards
+- decorative graphics with no meaning
