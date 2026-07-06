@@ -33,22 +33,26 @@ export default function Problem({ locale = "en" }: ProblemProps) {
               aria-hidden="true"
             />
 
-            <ol className="m-0 list-none space-y-6 pl-14 md:pl-20">
-              {t.flow.map((step) => (
-                <li key={step} className="flex items-start gap-4">
-                  <span className="mt-2 block h-3.5 w-3.5 rounded-full bg-gradient-to-b from-cyan-400 to-sky-500 shadow-[0_0_20px_rgba(56,189,248,0.22)] flex-shrink-0" />
+            <div className="grid gap-5 md:grid-cols-4"></div>
+              {t.flow.map((step, index) => (
+              <article
+                key={step}
+                className="relative rounded-3xl border border-slate-700 bg-slate-900/60 p-6 transition hover:border-cyan-500/30 hover:-translate-y-1"
+              >
+                <div className="mb-6 text-sm font-semibold text-cyan-300">
+                  {String(index + 1).padStart(2, "0")}
+                </div>
 
-                  <article className="w-full rounded-3xl border border-slate-700 bg-slate-900/70 backdrop-blur-sm transition duration-200 ease-out hover:-translate-y-1 hover:border-slate-500/40 hover:bg-slate-900/80">
-                    <div className="p-5 md:p-6">
-                      <p className="m-0 text-base font-semibold leading-7 text-slate-100 md:text-lg">
-                        {step}
-                      </p>
-                    </div>
-                  </article>
-                </li>
-              ))}
-            </ol>
-          </div>
+                <p className="text-lg font-medium leading-8 text-slate-100">
+                  {step}
+                </p>
+
+                {index < t.flow.length - 1 && (
+                  <div className="absolute -right-3 top-1/2 hidden h-px w-6 bg-cyan-500/30 md:block" />
+                )}
+              </article>
+            ))}
+            </div>
         </div>
       </Container>
     </section>

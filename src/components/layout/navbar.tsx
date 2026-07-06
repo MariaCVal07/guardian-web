@@ -1,49 +1,85 @@
-import { Button } from "@/components/ui/button";
+import { messages, type Locale } from "@/lib/i18n";
+import Container from "../ui/container";
 
-const navItems = ["How it Works", "Why This Approach", "Contact"];
+type NavbarProps = {
+  locale?: Locale;
+};
 
-const languages = ["EN", "ES"];
+export default function Navbar({ locale = "en" }: NavbarProps) {
+  const t = messages[locale].navigation;
 
-export default function Navbar() {
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/95">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <a href="#" className="text-lg font-semibold tracking-tight text-slate-900">
-          rbqe.ai
-        </a>
+    <header className="sticky top-0 z-50 border-b border-slate-800/60 bg-slate-950/80 backdrop-blur-xl">
+      <Container>
+        <div className="flex h-20 items-center justify-between">
 
-        <nav className="hidden items-center gap-8 md:flex">
-          {navItems.map((item) => (
+          {/* Logo */}
+          <a
+            href="#"
+            className="text-xl font-semibold tracking-tight text-white"
+          >
+            RBQE.ai
+          </a>
+
+          {/* Navigation */}
+          <nav className="hidden items-center gap-8 lg:flex">
             <a
-              key={item}
-              href="#"
-              className="text-sm font-medium text-slate-700 hover:text-slate-900"
+              href="#rbqe-framework"
+              className="text-sm text-slate-300 transition hover:text-cyan-300"
             >
-              {item}
+              {t.howItWorks}
             </a>
-          ))}
-        </nav>
 
-        <div className="flex items-center gap-2 sm:gap-3">
-          <div className="hidden items-center rounded-full border border-slate-200 p-1 sm:flex">
-            {languages.map((language, index) => (
-              <button
-                key={language}
-                type="button"
-                className={`rounded-full px-3 py-1 text-sm font-medium ${
-                  index === 0 ? "bg-slate-900 text-white" : "text-slate-700"
-                }`}
-              >
-                {language}
+            <a
+              href="#why-guardian"
+              className="text-sm text-slate-300 transition hover:text-cyan-300"
+            >
+              {t.why}
+            </a>
+
+            <a
+              href="#services"
+              className="text-sm text-slate-300 transition hover:text-cyan-300"
+            >
+              Services
+            </a>
+
+            <a
+              href="#contact"
+              className="text-sm text-slate-300 transition hover:text-cyan-300"
+            >
+              {t.contact}
+            </a>
+          </nav>
+
+          {/* Right Side */}
+          <div className="flex items-center gap-5">
+
+            {/* Language Selector (visual por ahora) */}
+            <div className="hidden items-center gap-2 text-sm text-slate-400 md:flex">
+              <button className="transition hover:text-white">
+                EN
               </button>
-            ))}
+
+              <span>/</span>
+
+              <button className="transition hover:text-white">
+                ES
+              </button>
+            </div>
+
+            {/* CTA */}
+            <a
+              href="#contact"
+              className="rounded-full bg-cyan-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-cyan-500"
+            >
+              {t.bookCall}
+            </a>
+
           </div>
 
-          <Button variant="default" size="sm" className="rounded-full">
-            Book a Call
-          </Button>
         </div>
-      </div>
+      </Container>
     </header>
   );
 }
