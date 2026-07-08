@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Image from "next/image";
+
 import { messages, type Locale } from "@/lib/i18n";
 import Container from "../ui/container";
 
@@ -14,12 +17,29 @@ export default function Navbar({ locale = "en" }: NavbarProps) {
         <div className="flex h-20 items-center justify-between">
 
           {/* Logo */}
-          <a
-            href="#"
-            className="text-xl font-semibold tracking-tight text-white"
+          <Link
+            href="/"
+            className="flex items-center gap-3 transition hover:opacity-90"
           >
-            RBQE.ai
-          </a>
+            <Image
+              src="/images/guardian-logo.png"
+              alt="RBQE.ai"
+              width={42}
+              height={42}
+              priority
+              className="rounded-xl drop-shadow-[0_0_18px_rgba(34,211,238,.35)]"
+            />
+
+            <div className="flex flex-col leading-none">
+              <span className="text-lg font-bold tracking-wide text-white">
+                RBQE.ai
+              </span>
+
+              <span className="text-[11px] uppercase tracking-[0.22em] text-cyan-300">
+                Risk-Based QA
+              </span>
+            </div>
+          </Link>
 
           {/* Navigation */}
           <nav className="hidden items-center gap-8 lg:flex">
@@ -28,13 +48,6 @@ export default function Navbar({ locale = "en" }: NavbarProps) {
               className="text-sm text-slate-300 transition hover:text-cyan-300"
             >
               {t.howItWorks}
-            </a>
-
-            <a
-              href="#why-guardian"
-              className="text-sm text-slate-300 transition hover:text-cyan-300"
-            >
-              {t.why}
             </a>
 
             <a
@@ -55,15 +68,15 @@ export default function Navbar({ locale = "en" }: NavbarProps) {
           {/* Right Side */}
           <div className="flex items-center gap-5">
 
-            {/* Language Selector (visual por ahora) */}
-            <div className="hidden items-center gap-2 text-sm text-slate-400 md:flex">
-              <button className="transition hover:text-white">
+            {/* Language */}
+            <div className="hidden items-center gap-2 rounded-full border border-slate-700 bg-slate-900/60 px-3 py-2 text-sm md:flex">
+              <button className="font-medium text-cyan-300 transition hover:text-white">
                 EN
               </button>
 
-              <span>/</span>
+              <span className="text-slate-600">/</span>
 
-              <button className="transition hover:text-white">
+              <button className="text-slate-400 transition hover:text-white">
                 ES
               </button>
             </div>

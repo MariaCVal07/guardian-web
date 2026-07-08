@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { messages, type Locale } from "@/lib/i18n";
 
 type HeroProps = {
@@ -10,108 +9,134 @@ export default function Hero({ locale = "en" }: HeroProps) {
   const t = messages[locale].hero;
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-900/95 to-slate-950">
+    <section className="relative overflow-hidden bg-[#050816]">
+
+      {/* Background Grid */}
       <div
-        className="absolute inset-0 opacity-10"
+        className="absolute inset-0 opacity-20"
         aria-hidden
         style={{
           backgroundImage:
-            "repeating-linear-gradient(0deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 40px), repeating-linear-gradient(90deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 40px)",
+            "linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px)",
+          backgroundSize: "60px 60px",
         }}
       />
 
-      <div className="mx-auto flex min-h-[720px] max-w-7xl flex-col justify-center gap-12 px-6 py-24 sm:px-8 lg:flex-row lg:items-center lg:gap-24 lg:px-12">
-        <div className="flex-1">
-          <div className="mb-6 inline-flex w-fit items-center gap-3 rounded-full border border-slate-700 bg-slate-800/40 px-3 py-1 text-sm font-medium text-slate-300">
-            <span className="text-xs font-medium uppercase tracking-wider text-slate-400">
-              {t.badge}
-            </span>
+      {/* Main Glow */}
+      <div className="absolute left-1/2 top-1/2 h-[900px] w-[900px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-500/10 blur-[180px]" />
+
+      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 pt-0 pb-8">
+
+        {/* ================= LEFT ================= */}
+
+        <div className="w-full lg:w-1/2">
+
+          <div className="inline-flex rounded-full border border-cyan-500/20 bg-cyan-500/10 px-5 py-2 text-sm font-medium text-cyan-300">
+            {t.badge}
           </div>
 
-          <h1 className="whitespace-pre-line text-6xl font-semibold leading-[0.95] tracking-[-0.04em] text-white sm:text-7xl lg:text-[88px]">
+          <h1 className="mt-6 max-w-xl text-6xl font-bold leading-[1.05] text-white lg:text-7xl">
             {t.title}
           </h1>
 
-          <p className="mt-8 max-w-xl text-xl leading-9 text-slate-400">
+          <p className="mt-5 max-w-lg text-lg leading-8 text-slate-400">
             {t.description}
           </p>
 
-          <div className="mt-12 flex flex-col gap-4 sm:flex-row">
-            <Button href="#contact">
+          <div className="mt-8 flex flex-wrap gap-4">
+            <Link
+              href="https://wa.me/+36305936472?text=Hello%20RBQE.ai%2C%20I%20would%20like%20to%20book%20a%20technical%20review."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-cyan-500 px-8 py-4 text-base font-semibold text-white transition hover:bg-cyan-400"
+            >
               {t.primaryButton}
-            </Button>
+            </Link>
 
-            <Button href="#how-it-works" variant="outline">
+            <Link
+              href="#rbqe-framework"
+              className="rounded-full border border-slate-700 px-8 py-4 text-base font-semibold text-white transition hover:border-cyan-400"
+            >
               {t.secondaryButton}
-            </Button>
+            </Link>
+
           </div>
+
         </div>
-        <div className="flex flex-1 items-center justify-center">
-          <div className="w-full max-w-md">
-            <div className="space-y-8">
 
-              <div className="flex items-center gap-6">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300">
-                  01
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">
-                    Requirements
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Understand business goals.
-                  </p>
-                </div>
-              </div>
+        {/* ================= RIGHT ================= */}
 
-              <div className="ml-6 h-10 w-px bg-gradient-to-b from-cyan-500 to-slate-700" />
+        <div className="relative hidden w-1/2 items-center justify-center lg:flex">
 
-              <div className="flex items-center gap-6">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300">
-                  02
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">
-                    Risk Analysis
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Prioritize what really matters.
-                  </p>
-                </div>
-              </div>
+          {/* Glow */}
+          <div className="absolute h-[650px] w-[650px] rounded-full bg-cyan-400/15 blur-[120px]" />
+          <div className="absolute h-[500px] w-[500px] rounded-full bg-emerald-400/10 blur-[100px]" />
 
-              <div className="ml-6 h-10 w-px bg-gradient-to-b from-cyan-500 to-slate-700" />
+          {/* Orbit 1 */}
+          <div className="absolute left-1/2 top-1/2 h-[620px] w-[620px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/10" />
 
-              <div className="flex items-center gap-6">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300">
-                  03
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">
-                    AI Assistance
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Accelerate engineering decisions.
-                  </p>
-                </div>
-              </div>
+          {/* Orbit 2 */}
+          <div className="absolute left-1/2 top-1/2 h-[540px] w-[540px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/10" />
 
-              <div className="ml-6 h-10 w-px bg-gradient-to-b from-cyan-500 to-slate-700" />
+          {/* Orbit 3 */}
+          <div className="absolute left-1/2 top-1/2 h-[460px] w-[460px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-500/15" />
 
-              <div className="flex items-center gap-6">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300">
-                  04
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-white">
-                    Release Confidence
-                  </h3>
-                  <p className="text-sm text-slate-400">
-                    Better releases through risk-first QA.
-                  </p>
-                </div>
-              </div>
+          {/* Orbit 4 */}
+          <div className="absolute left-1/2 top-1/2 h-[380px] w-[380px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-400/20" />
 
+          {/* Orbit 5 */}
+          <div className="absolute left-1/2 top-1/2 h-[300px] w-[300px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-cyan-400/30" />
+
+          {/* RBQE Diagram */}
+          <div className="relative h-[520px] w-[520px] animate-[float_8s_ease-in-out_infinite]">
+
+            {/* ================= Centro ================= */}
+            <div className="absolute left-1/2 top-1/2 flex h-40 w-40 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/30 bg-slate-900 shadow-[0_0_70px_rgba(34,211,238,.25)]">
+              <span className="text-center">
+                <span className="block text-2xl font-bold tracking-[0.18em] text-white">
+                  RBQE
+                </span>
+
+                <span className="mt-2 block text-[10px] uppercase tracking-[0.35em] text-cyan-300">
+                  AI ENGINE
+                </span>
+              </span>
+            </div>
+
+            {/* ================= Business ================= */}
+
+            <div className="absolute left-1/2 top-2 -translate-x-1/2 rounded-2xl border border-slate-700 bg-slate-900/90 px-6 py-3 backdrop-blur transition duration-300 hover:border-cyan-400/40 animate-[floatCard_7s_ease-in-out_infinite]">
+              <p className="text-sm font-semibold text-white">
+                Business
+              </p>
+            </div>
+
+            {/* ================= Requirements ================= */}
+            <div className="absolute left-4 top-1/2 -translate-y-1/2 rounded-2xl border border-slate-700 bg-slate-900/90 px-6 py-3 backdrop-blur transition duration-300 hover:border-cyan-400/40 animate-[floatCard_8s_ease-in-out_infinite]">
+              <p className="text-sm font-semibold text-white">
+                Requirements
+              </p>
+            </div>
+
+            {/* ================= Risk ================= */}
+            <div className="absolute right-4 top-1/2 -translate-y-1/2 rounded-2xl border border-slate-700 bg-slate-900/90 px-6 py-3 backdrop-blur transition duration-300 hover:border-cyan-400/40 animate-[floatCard_9s_ease-in-out_infinite]">
+              <p className="text-sm font-semibold text-white">
+                Risk
+              </p>
+            </div>
+
+            {/* ================= Test Strategy ================= */}
+            <div className="absolute bottom-12 left-12 rounded-2xl border border-slate-700 bg-slate-900/90 px-6 py-3 backdrop-blur transition duration-300 hover:border-cyan-400/40 animate-[floatCard_10s_ease-in-out_infinite]">
+              <p className="text-sm font-semibold text-white">
+                Test Strategy
+              </p>
+            </div>
+
+            {/* ================= Release ================= */}
+            <div className="absolute bottom-12 right-12 rounded-2xl border border-slate-700 bg-slate-900/90 px-6 py-3 backdrop-blur transition duration-300 hover:border-cyan-400/40 animate-[floatCard_7.5s_ease-in-out_infinite]">
+              <p className="text-sm font-semibold text-white">
+                Release
+              </p>
             </div>
           </div>
         </div>

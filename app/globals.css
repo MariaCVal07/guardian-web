@@ -1,1 +1,78 @@
 @import "tailwindcss";
+
+/* ===========================================================
+   GUARDIAN BACKGROUND
+=========================================================== */
+
+body {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(34,211,238,.10), transparent 35%),
+    radial-gradient(circle at 80% 30%, rgba(59,130,246,.08), transparent 35%),
+    radial-gradient(circle at 50% 100%, rgba(34,211,238,.06), transparent 45%),
+    #020617;
+
+  color: #F8FAFC;
+}
+
+/* Grid */
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+
+  background-image:
+      linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+
+  background-size:60px 60px;
+
+  mask-image:radial-gradient(circle at center, black 45%, transparent 100%);
+
+  opacity:.5;
+
+  z-index:-2;
+}
+
+/* Glow */
+
+body::after{
+
+  content:"";
+
+  position:fixed;
+
+  width:700px;
+  height:700px;
+
+  left:50%;
+  top:25%;
+
+  transform:translateX(-50%);
+
+  background:radial-gradient(circle,
+      rgba(34,211,238,.18),
+      transparent 70%);
+
+  filter:blur(90px);
+
+  pointer-events:none;
+
+  z-index:-1;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-14px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+

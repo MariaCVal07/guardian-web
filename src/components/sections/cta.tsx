@@ -27,7 +27,7 @@ export default function Contact() {
 
           <a
             href="#"
-            className="mt-12 inline-flex rounded-full bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition hover:bg-cyan-500"
+            className="mt-8 inline-flex rounded-full bg-cyan-600 px-8 py-4 text-lg font-medium text-white transition hover:bg-cyan-500"
           >
             Book a Technical Review
           </a>
