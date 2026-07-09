@@ -82,15 +82,10 @@ export default function Navbar({ locale = "en" }: NavbarProps) {
             </div>
 
             {/* CTA */}
-            <a
-              href="#contact"
-              className="rounded-full bg-cyan-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-cyan-500"
-            >
+            <a href="#contact" className="rounded-full bg-cyan-600 px-5 py-2 text-sm font-medium text-white transition hover:bg-cyan-500">
               {t.bookCall}
             </a>
-
           </div>
-
         </div>
       </Container>
     </header>

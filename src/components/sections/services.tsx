@@ -28,16 +28,16 @@ export default function Services({
     <section id="services" className="relative flex min-h-screen items-center overflow-hidden py-8 scroll-mt-24">
       <Container>
         <div className="space-y-8">
-          <div className="max-w-6xl space-y-6">
+          <div className="max-w-5xl space-y-4">
             <span className="inline-flex rounded-full border border-cyan-500/20 bg-cyan-500/10 px-4 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300">
               {t.badge}
             </span>
 
-            <h2 id="services-title" className="max-w-6xl text-4xl font-bold leading-[1.1] tracking-tight text-slate-100 lg:text-6xl">
+            <h2 id="services-title" className="max-w-5xl text-3xl font-bold leading-tight tracking-tight text-slate-100 lg:text-4xl">
               {t.title}
             </h2>
 
-            <p className="max-w-5xl text-xl leading-9 text-slate-400">
+            <p className="max-w-5xl text-lg leading-8 text-slate-400">
               {t.description}
             </p>
           </div>
