@@ -43,29 +43,60 @@ export const en = {
   steps: [
     {
       title: "Requirements",
-      description: "Understand business goals before writing a single test."
+      description:
+        "Understand business objectives, architecture and product expectations before defining any testing activities.",
+      aiContribution:
+        "AI analyzes requirements, user stories and historical information to identify ambiguity and missing scenarios.",
+      outcome:
+        "Business context, prioritized requirements and an initial quality risk baseline."
     },
     {
       title: "Risk Analysis",
-      description: "Identify what could fail and prioritize by business impact."
+      description:
+        "Identify technical and business risks based on impact, probability and critical user journeys.",
+      aiContribution:
+        "AI correlates historical defects, dependencies and production incidents to accelerate risk identification.",
+      outcome:
+        "A ranked risk matrix that focuses testing where failures matter most."
     },
     {
       title: "AI Assistance",
-      description: "Use AI to accelerate analysis while engineers validate every decision."
+      description:
+        "Engineers validate AI insights while accelerating analysis and decision making.",
+      aiContribution:
+        "Large Language Models generate recommendations, suggest missing scenarios and detect coverage gaps.",
+      outcome:
+        "Higher analysis speed without sacrificing engineering judgment."
     },
     {
       title: "Test Strategy",
-      description: "Build meaningful coverage around the highest risks."
+      description:
+        "Design a testing strategy driven by business value instead of exhaustive coverage.",
+      aiContribution:
+        "AI recommends optimal test allocation according to risk level and system complexity.",
+      outcome:
+        "Focused test plans with maximum business impact."
     },
     {
       title: "Execution",
-      description: "Execute focused testing with clear priorities."
+      description:
+        "Execute prioritized validation activities with continuous visibility over quality status.",
+      aiContribution:
+        "AI monitors execution trends, highlights anomalies and identifies emerging risks.",
+      outcome:
+        "Faster feedback cycles and earlier defect detection."
     },
     {
       title: "Release Confidence",
-      description: "Ship software with greater visibility and confidence."
+      description:
+        "Support release decisions using objective quality evidence instead of assumptions.",
+      aiContribution:
+        "AI consolidates quality indicators into a confidence assessment for stakeholders.",
+      outcome:
+        "A release recommendation supported by measurable engineering evidence."
     }
-  ]},
+  ]
+},
 
   services: {
   badge: "SERVICES",
